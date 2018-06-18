@@ -10,6 +10,7 @@ const int DEBOUNCE_READS=4;
 const int DEBOUNCE_DELAY=50; //miliseconds
 
 const boolean DEBUG=true;
+const int DEBUG_DELAY=500;
 
 void setup() {
   // put your setup code here, to run once:
@@ -48,5 +49,6 @@ void switchOne(int pinIn, int pinOut) {
         break;
     }
     Serial.println(readSum / DEBOUNCE_READS);
+    delay(DEBUG_DELAY);
   }
 }
