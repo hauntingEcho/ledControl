@@ -1,12 +1,12 @@
-const int PIN_R = 9;
-const int PIN_G = 10;
+const int PIN_R = 5;
+const int PIN_G = 9;
 const int PIN_B = 11;
 
-const int POT_R = 0;
-const int POT_G = 1;
-const int POT_B = 2;
+const int POT_R = A1;
+const int POT_G = A3;
+const int POT_B = A5;
 
-const int DEBOUNCE_READS=4;
+const int DEBOUNCE_READS=10;
 const int DEBOUNCE_DELAY=50; //miliseconds
 
 const boolean DEBUG=true;
